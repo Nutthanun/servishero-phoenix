@@ -1,0 +1,779 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesTH.css">
+    <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>ServisHero</title>
+  </head>
+  <body>
+
+    <!-- navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-light pl-4 mb-5 border-bottom" id="myHeader">
+        <a class="navbar-brand px-2" href="#"><img src="Images/sh_logo_white.svg" style="width:150px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse navbarmenu" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <div class="d-flex flex-row align-items-center">
+                        <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ประเทศ</a>
+                        <div class="dropdown-menu navbarmenu" aria-labelledby="dropdown04">
+                            <h6 class="dropdown-header"><img src="Images/malaysia.svg" style="width:25px; height: 25px;"> Malaysia</h6>
+                            <a class="dropdown-item" href="#" style="background-color: #f3f3f3;">English</a>
+                            <h6 class="dropdown-header"><img src="Images/thailand.svg" style="width:25px;"> Thailand</h6>
+                            <a class="dropdown-item" href="#" style="background-color: #f3f3f3;">English</a>
+                            <a class="dropdown-item" href="#" style="background-color: #f3f3f3;">Thai</a>
+                            <h6 class="dropdown-header"><img src="Images/singapore.svg" style="width:25px;">  Singapore</h6>
+                            <a class="dropdown-item" href="#" style="background-color: #f3f3f3;">English</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            
+            <ul class="navbar-nav navbarmenu pr-4">
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="index.html#FeaturedIn">บริการ</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="index.html#VIP">VIP</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="index.html#enterprise">องค์กร</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#">เป็นวีรบุรุษ</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#">ช่วยด้วย</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav navbarmenu">
+                <li class="nav-item px-2 border-left">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row m-0" style="width:250px;">
+                                <a class="nav-link" href="#" style="color:#3b3a3b; font-size: 12px; font-family:'Prompt'">ติดต่อเราผ่านไลน์ (ทุกวัน 10.00-18.00น.)<br><img src="Images/lineicon.svg" style="width:20px; height:20px;"> <strong4>@servishero</strong4></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>         
+        </div>
+    </nav>
+      
+    <div class="container">
+        <!-- Headline -->
+        <div style="margin-top:30px">
+            <div class="row">
+                <div class="col" style="margin: 5px 0 0 0; padding:0 15px 0 15px;">
+                    <h1 class="headline">
+                            hea้างฮีโร่มืออาชีพ:
+                    </h1>
+                    <div id="app"></div>
+                    <h6 class="subheadline pt-3 pb-5" style="color:#707070;">
+                        ง่ายดายเพียงไม่กี่คลิก
+                    </h6>
+                </div>
+                
+                
+                
+                <div class="col-md-6">
+                    <h3 class="subheadline mb-4" style="color:#707070;">
+                        ้างช่างและแม่บ้านมืออาชีพดีที่สุดที่เซอร์วิสฮีโร่
+                    </h3>
+                    <div>
+                        <button type="button" class="btn btn-primary btn-lg CTATH my-3" data-toggle="modal" data-target="#exampleModalCenter">จองเลย</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BackgroundImage -->
+    <div>
+        <img class="background-image" src="images/Background.png">
+    </div>
+
+    <div class="container" id="FeaturedIn">
+        <section class="customer-logos slider" style="margin: -40px 0 40px 0;">
+        <div class="slide"><img src="Images/TC.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/TechInAsia.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/mediaTH3.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/Bloomberg.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/mediaTH1.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/mediaTH2.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/aday.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/Inc.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/Forbes.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/CNN.png" style="width:100px;"></div>
+        </section>
+    </div>
+    
+    <div class="container-fluid" id="services">   
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="col-md-6 px-5 text-center my-4">
+                    <h2 class="title">
+                        ครบวงจรทุกบริการเรื่องบ้านและออฟฟิศ
+                    </h2>
+                    <p class="subtitle">
+                        จ้างช่างและแม่บ้านได้ทันทีด้วยราคาที่ชัดเจนหรือรับใบประเมินราคาฟรี
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+    <div class="container">
+        <div class="row my-3">
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/Cleaning.png" style="width:100%">
+                <!-- <div class="overlay">
+                    <div class="text">Hello World</div>
+                </div> -->
+            </div>
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/ACCleaning.png" style="width:100%">
+            </div>
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/ElectricalRepair.png" style="width:100%">
+            </div>
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/PlumbingService.png" style="width:100%">
+            </div>
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/Handyman.png" style="width:100%">
+            </div>
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/Moving.png" style="width:100%">
+            </div>
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/Contractors.png" style="width:100%">
+            </div>
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/DustMite.png" style="width:100%">
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col d-flex justify-content-center">
+                <div class="col-md-6 px-5 text-center py-3">
+                    <h2 class="title pb-3">
+                        ดาวน์โหลดแอปพลิเคชั่นเซอร์วิสฮีโร่ได้แล้ววันนี้
+                    </h2>  
+                    <div class="col py-2 d-flex justify-content-center">
+                        <a href="https://itunes.apple.com/my/app/servishero-on-demand-services/id992334828?mt=8" target="_blank"><img class="px-2" src="Images/app-store-badge.svg" style="width:180px;"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.servishero.consumer&hl=en" target="_blank"><img class="px-2" src="Images/google-play-badge.svg" style="width:180px;"></a>   
+                    </div>                              
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+                <div class="col d-flex justify-content-center">
+                    <div class="col-md-8 text-center my-4">
+                        <h2 class="title py-4">
+                            มันทำงานอย่างไร
+                        </h2>
+                        <div class="video-container">
+                            <iframe width="853" height="480" src="https://www.youtube.com/embed/_ZBatCfo1T8" frameborder="0" allowfullscreen>
+                            </iframe>
+                        </div>    
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+    <div class="VIP" id="VIP">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <img src="images/houses.svg" class="mt-5 mx-5" style="width: 500px;">
+                </div>
+            </div>
+
+            <!-- VIP Card -->
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="px-4 VIPcard">
+                        <div class="row">
+                            <div class="col d-flex justify-content-center">
+                                <div class="col-md-6">
+                                    <h3 class="VIPdesc text-center pt-3" style="margin-bottom: -3px;">รับส่วนลดและ</h3>
+                                    <h3 class="VIPdesc text-center pb-3" style="margin-bottom: -1px;">สิทธิพิเศษมากมายสำหรับ</h3>
+                                    <h2 class="title">สมาชิก VIP เซอร์วิสฮีโร่</h2>
+                                    <div class=" pt-3">
+                                        <p class="VIPdesc">
+                                            เป็นสมาชิก VIP เซอร์วิสฮีโร่ และรับส่วนลดมากมาย ให้คุณได้ใช้บริการในราคาที่ถูกกว่า แถมสิทธิพิเศษอื่นๆจากพาร์ทเนอร์ของเราที่พร้อมดูแลคุณ
+
+                                        </p>
+                                    </div>
+                                    <p class="subtitle pt-5">จ่ายเพียง</p> 
+                                    <div class="d-flex justify-content-center">
+                                        <h2 class="currency pt-4 pr-3">THB</h2> 
+                                        <h1 class="price">999</h1> 
+                                        <h3 class="price2 pt-2 pl-1">.00</h3> 
+                                    </div>
+                                    <p class="subtitle">ต่อปี</p> 
+                                    <div class="mx-auto pt-5">
+                                        <p class="VIPdesc">
+                                            รับทันที ส่วนลดบริการมูลค่า <strong2>2,500</strong2> บาทและสิทธิพิเศษอื่นๆ รวมถึง:
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Privilege -->
+                        
+                        <div class="row d-flex justify-content-center py-3 px-4">
+                            <div class="col-md-3 flex-column px-2 py-2 text-center" style="width:200px;">
+                                <img src="Images/HomeCleaning.svg">
+                                <p class="icondesc py-4">
+                                    ส่วนลดบริการทำความสะอาด x 10 (มูลค่า 1500บาท)
+                                </p>
+                            </div>
+                            <div class="col-md-3 flex-column px-2 py-2 text-center" style="width:200px;">
+                                <img src="Images/AirCond.svg">
+                                <p class="icondesc py-4">
+                                    ส่วนลดล้างแอร์ x 10 (มูลค่า 1000บาท)
+                                </p>
+                            </div>
+                            <div class="col-md-3 flex-column px-2 py-2 text-center" style="width:200px;">
+                                <img src="Images/Call.svg">
+                                <p class="icondesc py-4">
+                                    สิทธิพิเศษอื่นๆจากพาร์ทเนอร์ของเรา
+                                </p>
+                            </div>
+                            <div class="col-md-3 flex-column px-2 py-2 text-center" style="width:200px;">
+                                <img src="Images/10OFF.svg">
+                                <p class="icondesc py-4">
+                                    ส่วนลด 5% งานจ้างตรงตลอดอายุสมาชิก
+                                </p>
+                            </div>   
+                        </div>
+
+                        <!-- Join Now -->
+                        <div class="row">
+                            <div class="col my-4 text-center justify-content-center">
+                                <a href="https://goo.gl/forms/zaYqXrhD1l3RV7mw2" target="_blank" class="btn btn-info CTA mx-2" role="button" style="border-style: none;">เข้าร่วมเดี๋ยวนี้</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+            <div class="row my-5">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 px-5 text-center mt-5">
+                    <h2 class="title paddingx20">
+                        รีวิวจากลูกค้า
+                    </h2>
+                    <p class="subtitle">
+                        ลูกค้าหลายแสนคนได้รับบริการช่างและแม่บ้านมืออาชีพจากเซอร์วิสฮีโร่
+                    </p>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+
+            <!-- Testimonial Carousel -->
+            
+            <main>
+                <div id="carouselbtm" class="container py-4">
+                    <div class="prevLeftSecond" id="testimonialcard">
+                        <div class="row ml-0 d-flex px-2 pt-4 pb-2 justify-content-center" style="width:100%">
+                            <div class="col">
+                                <img src="Images/KhunArt.png" style="width:77px; float:right;">
+                            </div>
+                            <div class="col d-flex flex-column pl-0 pt-2">
+                                <h6 class="footertitle" style="color: #3b3a3b;">คุณอาร์ท พนักงานบริษัทเอกชน</h6>
+                                <img src="Images/Stars.svg" style="width:100px;">
+                            </div>
+                        </div>
+                        <div class="row ml-0 d-flex px-4 py-4 justify-content-center" style="width:100%">
+                            <img src="Images/Line.svg" style="width: 95%; margin-bottom:20px;">
+                            <h5 class="feedbacktitle">
+                            Ordered AirCond Servicing
+                            </h5>
+                            <p class="feedback">
+                                ใช้งานง่าย และดูปลอดภัยดี แม่บ้านตอบรับงานรวดเร็วครับ เหมาะกับคนยุ่งๆแบบผม ไม่ต้องคอยโทรหาหลายๆคน แถมบริษัทก็มีประกันให้ มีอะไรก็เปิดแอปมาจองได้เลย ง่ายดี ไม่ต้องมีหลายแอปด้วย อยากให้ลองครับ
+                            </p>
+                        </div>
+                    </div>
+                    <div class="prev" id="testimonialcard">
+                        <div class="row ml-0 d-flex px-2 pt-4 pb-2 justify-content-center" style="width:100%">
+                            <div class="col">
+                                <img src="Images/KhunPear.png" style="width:77px; float:right;">
+                            </div>
+                            <div class="col d-flex flex-column pl-0 pt-2">
+                                <h6 class="footertitle" style="color: #3b3a3b;">คุณแพร เจ้าของกิจการ</h6>
+                                <img src="Images/Stars.svg" style="width:100px;">
+                            </div>
+                        </div>
+                        <div class="row ml-0 d-flex px-4 py-4 justify-content-center" style="width:100%">
+                            <img src="Images/Line.svg" style="width: 95%; margin-bottom:20px;">
+                            <h5 class="feedbacktitle">
+                            Ordered Home Cleaning
+                            </h5>
+                            <p class="feedback">
+                                ในที่สุดก็มีแอปที่ตอบโจทย์ชีวิต สะดวกและไม่ต้องกังวลว่าราคาจะไม่เท่ากับที่ตกลงไว้ เพราะในแอปบอกไว้ชัดมากว่าราคาเท่าไหร่ รวมอะไรบ้าง ดีมาก เพราะจะได้เอาเวลาไปทำอย่างอื่น ถ้าใครมองหาช่างและแม่บ้านก็อยากแนะนำเซอร์วิสฮีโร่นะคะ
+                            </p>
+                        </div>
+                    </div>
+                    <div class="selected" id="testimonialcard">
+                        <div class="row ml-0 d-flex px-2 pt-4 pb-2 justify-content-center" style="width:100%">
+                            <div class="col">
+                                <img src="Images/KhunSha.png" style="width:77px; float:right;">
+                            </div>
+                            <div class="col d-flex flex-column pl-0 pt-2">
+                                <h6 class="footertitle" style="color: #3b3a3b;">คุณอาร์ท พนักงานบริษัทเอกชน</h6>
+                                <img src="Images/Stars.svg" style="width:100px;">
+                            </div>
+                        </div>
+                        <div class="row ml-0 d-flex px-4 py-4 justify-content-center" style="width:100%">
+                            <img src="Images/Line.svg" style="width: 95%; margin-bottom:20px;">
+                            <h5 class="feedbacktitle text-center">
+                            Ordered Home Cleaning and Electrical Repair
+                            </h5>
+                            <p class="feedback">
+                                ใช้งานง่าย และดูปลอดภัยดี แม่บ้านตอบรับงานรวดเร็วครับ เหมาะกับคนยุ่งๆแบบผม ไม่ต้องคอยโทรหาหลายๆคน แถมบริษัทก็มีประกันให้ มีอะไรก็เปิดแอปมาจองได้เลย ง่ายดี ไม่ต้องมีหลายแอปด้วย อยากให้ลองครับ
+                            </p>
+                        </div>
+                    </div>
+                    <div class="next" id="testimonialcard">
+                        <div class="row ml-0 d-flex px-2 pt-4 pb-2 justify-content-center" style="width:100%">
+                            <div class="col">
+                                <img src="Images/KhunTrophy.png" style="width:77px; float:right;">
+                            </div>
+                            <div class="col d-flex flex-column pl-0 pt-2">
+                                <h6 class="footertitle" style="color: #3b3a3b;">คุณโทรฟี่ เจ้าของกิจการ</h6>
+                                <img src="Images/Stars.svg" style="width:100px;">
+                            </div>
+                        </div>                            
+                        <div class="row ml-0 d-flex px-4 py-4 justify-content-center" style="width:100%">
+                            <img src="Images/Line.svg" style="width: 95%; margin-bottom:20px;">
+                            <h5 class="feedbacktitle">
+                            Ordered Home Cleaning
+                            </h5>
+                            <p class="feedback">
+                                ผมใช้บริการมาก็หลากหลายแต่สุดท้ายก็เลือกเซอร์วิสฮีโร่ครับ เหตุผลหลักๆก็เพราะมั่นใจในบริการมากที่สุด และช่างแอร์รับงานภายในไม่กี่ชั่วโมง ที่ชอบมากๆคือช่างแอร์ตรงไปตรงมา ไม่มีการบังคับเติมน้ำยาแอร์ เป็นเจ้าที่ซื่อสัตย์ที่สุดตั้งแต่เจอมา ประทับใจจริงๆ
+                            </p>
+                        </div>
+                    </div>        
+                    <div class="nextRightSecond" id="testimonialcard">
+                        <div class="row ml-0 d-flex px-2 pt-4 pb-2 justify-content-center" style="width:100%">
+                            <div class="col">
+                                <img src="Images/KhunBonus.png" style="width:77px; float:right;">
+                            </div>
+                            <div class="col d-flex flex-column pl-0 pt-2">
+                                <h6 class="footertitle" style="color: #3b3a3b;">คุณโบนัส พนักงานบริษัทเอกชน</h6>
+                                <img src="Images/Stars.svg" style="width:100px;">
+                            </div>
+                        </div>                                
+                        <div class="row ml-0 d-flex px-4 py-4 justify-content-center" style="width:100%">
+                            <img src="Images/Line.svg" style="width: 95%; margin-bottom:20px;">
+                            <h5 class="feedbacktitle">
+                            Ordered Plumbing Repair
+                            </h5>
+                            <p class="feedback">
+                                เซอร์วิสฮีโร่คือผู้ช่วยทุกปัญหาเรื่องบ้านจริงๆ แม่บ้านน่ารักมาก มารยาทดี ทำงานเรียบร้อย สะดวกและง่ายดีค่ะ มีคำถามก็มีทีมงานคอยดูแลตลอด ชอบค่ะ แนะนำมากๆ
+                            </p>
+                        </div>
+                    </div>        
+                </div>                   
+                <div class="row d-flex justify-content-center py-5 px-4">
+                    <div class="buttons" id="enterprise" style="margin: -50px 0 20px 0;">
+                        <!-- <button id="prev"><img src="Images/leftarrow.svg"></button> -->
+                        <a id="prev" class="mx-4"><img src="Images/leftarrow.svg"></a>
+                        <a id="next" class="mx-4"><img src="Images/rightarrow.svg"></a>
+                    </div>
+                </div>               
+            </main>           
+        </div>
+    </div>
+
+    <div class="container-fluid mb-5">   
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="col-md-6 text-center my-4">
+                    <h2 class="title">
+                        เซอร์วิสฮีโร่สำหรับธุรกิจ
+                    </h2>
+                    <p class="subtitle">
+                        ต้องการให้เซอร์วิสฮีโร่ดูแลธุรกิจหรือลูกค้าของธุรกิจคุณรึเปล่า? เราเป็นผู้นำตลาดที่ได้รับความไว้วางใจและความเชื่อถือจากบริษัทฯชั้นนำในเมืองไทยจำนวนมากที่สุด
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/1.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/2.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/3.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/4.png" style="width:100%;">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/5.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/6.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/7.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/GrabLogo.png" style="width:100%;">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/9.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/10.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/11.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/12.png" style="width:100%;">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/13.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/14.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/15.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/16.png" style="width:100%;">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/17.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/18.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/19.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/20.png" style="width:100%;">
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="CTAbottom">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-6">
+                    <div class="col d-flex flex-column" style="margin-top:100px;">
+                        <h2 class="CTAtitle my-2">
+                            วางใจให้เราดูแลบ้านและออฟฟิศของคุณ
+                        </h2>
+                        <p class="CTAdesc my-2">
+                            เซอร์วิสฮีโร่ แพลตฟอร์มค้นหาและจ้างช่างและแม่บ้านมืออาชีพชั้นนำในภูมิภาค ฮีโร่ของเราพร้อมให้บริการทุกงานเกี่ยวกับบ้าน ไม่ว่าจะเป็น แม่บ้าน ช่างแอร์ ช่างไฟฟ้า ช่างประปา ช่างซ่อมบำรุง ผู้รับเหมาก่อสร้าง พนักงานขนย้าย และอื่นๆอีกมากมาย ดาวน์โหลดแอปพลิเคชั่นของเรา (ทั้ง iOS และ Android) จองและชำระเงินได้ง่ายดายเพียงแค่ไม่กี่คลิก สะดวก ง่าย และปลอดภัย เพราะเราคัดกรองฮีโร่ผู้ให้บริการมาอย่างเข้มงวด ทุกคนเป็นคนไทย และผ่านการตรวจประวัติอาชญากรรมเรียบร้อยแล้ว อีกทั้งยังให้คุณได้มั่นใจในคุณภาพ เพราะเซอร์วิสฮีโร่รับประกันความพึงพอใจ 100%
+                        </p>
+                        <div class="col-md-6 px-0">
+                            <button type="button" class="btn btn-primary btn-md my-5 CTA justify-content-center" data-toggle="modal" data-target="#exampleModalCenter">จองเลย</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 align-self-end">
+                    <img class="serviceprovider" src="Images/ServiceProvider.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row px-2 py-5">
+                <div class="col-md-6 d-flex flex-row py-3">
+                    <div class="col-md-4">
+                        <img src="Images/sh_below_logo_black.svg" style="width:80px;">
+                    </div>
+                    <div class="col-md-8 footercontent" style="transform: translateX(-15%)">
+                        <p>เซอร์วิสฮีโร่ แพลตฟอร์มค้นหาและจ้างช่างและแม่บ้านมืออาชีพ (หรือที่เราเรียกว่า “ฮีโร่”) สำหรับบ้านและออฟฟิศ เราเป็นแพลตฟอร์มชั้นนำในภูมิภาคที่ให้บริการงานเกี่ยวกับบ้านและออฟฟิศครบวงจร</p>
+                    </div>
+                </div>
+                <div class="col-md-3 px-0 d-flex flex-row py-3">
+                    <div class="col-md-6 d-flex flex-column">
+                        <h4 class="footertitle">บริษัท</h4>
+                        <a href="https://servishero.com/my/en/about-us" class="footercontent my-1">เกี่ยวกับเรา</a>
+                        <a href="https://servishero.com/my/en/blog" class="footercontent my-1">บล็อก</a>
+                        <a href="https://servishero.zendesk.com/hc/en-us/categories/115000122911-Customer-FAQ" class="footercontent my-1">FAQ</a>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column">
+                        <h4 class="footertitle">ฮีโร่</h4>
+                        <a href="http://herosignup.servishero.com/hero-signup-form" class="footercontent my-1">สมัครเป็นฮีโร่</a>
+                        <a href="https://servishero.com/my/en/guide" class="footercontent my-1">คู่มือฮีโร่</a>
+                    </div>
+                </div>
+                <div class="col-md-3 px-0 d-flex flex-row py-3">
+                    <div class="col-md-6 d-flex flex-column">
+                        <h4 class="footertitle">พาร์ทเนอร์</h4>
+                        <a href="https://servishero.com/my/en/kuala-lumpur/simedarby" target="_blank" class="footercontent my-1">Sime Darby</a>
+                        <a href="#" class="footercontent my-1">Allianz</a>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column">
+                        <h4 class="footertitle">ดาวน์โหลดเดี๋ยวนี้</h4>
+                        <a class="my-1" href="https://itunes.apple.com/my/app/servishero-on-demand-services/id992334828?mt=8" target="_blank"><img src="Images/app-store-badge.svg"></a>
+                        <a class="my-1" href="https://play.google.com/store/apps/details?id=com.servishero.consumer&hl=en" target="_blank"><img src="Images/google-play-badge.svg"></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row justify-content-center">
+                <img src="Images/Line2.svg" style="width:100%">
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class="col-md-6 text-center my-2">
+                        <div class="col my-4 d-flex justify-content-center">
+                            <a href="https://www.facebook.com/servishero" target="_blank"><img class="px-2" src="Images/facebook.svg"></a>
+                            <a href="https://www.instagram.com/servishero/" target="_blank"><img class="px-2" src="Images/instagram.svg"></a>
+                            <a href="https://www.youtube.com/servishero" target="_blank"><img class="px-2" src="Images/youtube.svg"></a>    
+                        </div>
+                        <h4 class="trademark">สายด่วนสำหรับดูแลลูกค้า</h4>
+                        <div class="col pb-5 pt-1 d-flex flex-row justify-content-center">
+                           <img src="Images/telephone.svg" style="width:18px; height:18px">
+                           <h5 class="phonenumber m-0 pl-3">063-236-6640</h5>
+                        </div>
+                        <p class="copyright" style="font-family: 'lato'">COPYRIGHT © 2017 SERVISHERO. ALL RIGHTS RESERVED</p>
+                        <p class="trademark" style="font-family: 'lato'">ServisHero and the ServisHero logo are trademarks of Business Pixel Sdn Bhd. All other trademarks are the trademarks of their respective owners.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-center my-1">
+                    <div class="col-md-3 text-right">
+                        <a href="https://servishero.com/my/en/terms_of_use"><p class="trademark">Terms of Use</p></a> 
+                    </div>
+                    <div class="col-md-3 text-left">
+                        <a href="https://servishero.com/my/en/privacy_policy"><p class="trademark">Privacy Policy</p></a> 
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="title m-0" id="exampleModalLongTitle">Notice</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col flex-column justify-content-center">
+                            <div class="col text-center">
+                                <p class="subtitle">
+                                    We are focusing our efforts in providing the best user experience for our customer and hence will no longer receive booking from the web. Please download our app and use your mobile number to login to the app. All your existing booking will be carried over in the app.
+                                </p>
+                            </div>
+                            <div class="col d-flex flex-row justify-content-center">
+                                <div class="col my-4 d-flex justify-content-center">
+                                    <a class="my-1 mx-2" href="https://itunes.apple.com/my/app/servishero-on-demand-services/id992334828?mt=8" target="_blank"><img class="DLpopup" src="Images/app-store-badge.svg"></a>
+                                    <a class="my-1 mx-2" href="https://play.google.com/store/apps/details?id=com.servishero.consumer&hl=en" target="_blank"><img class="DLpopup" src="Images/google-play-badge.svg"></a>
+                                </div>
+                            </div>
+                            <div class="col mb-3 text-center">
+                                <p class="subtitle">
+                                    or
+                                </p>
+                            </div>
+                            <div class="col text-center">
+                                <p class="subtitle">
+                                    Book through WhatsApp or Facebook Messenger
+                                </p>
+                            </div>
+                            <div class="col my-4 d-flex justify-content-center">
+                                <a href="https://www.messenger.com/t/servishero" target="_blank" class="btn btn-info WhatsApp mx-2" role="button" style="border-style: none;"><img class="pr-2" src="Images/whatsapp.svg" style="width:35px; height:35px"> Book</a>
+                                <a href="https://www.messenger.com/t/servishero" target="_blank" class="btn btn-info FBMessenger mx-2" role="button" style="border-style: none;"><img class="pr-2" src="Images/messenger.svg" style="width:35px; height:35px"> Book</a>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    
+    <script>
+        function moveToSelected(element) {
+
+if (element == "next") {
+  var selected = $(".selected").next();
+} else if (element == "prev") {
+  var selected = $(".selected").prev();
+} else {
+  var selected = element;
+}
+
+var next = $(selected).next();
+var prev = $(selected).prev();
+var prevSecond = $(prev).prev();
+var nextSecond = $(next).next();
+
+$(selected).removeClass().addClass("selected");
+
+$(prev).removeClass().addClass("prev");
+$(next).removeClass().addClass("next");
+
+$(nextSecond).removeClass().addClass("nextRightSecond");
+$(prevSecond).removeClass().addClass("prevLeftSecond");
+
+$(nextSecond).nextAll().removeClass().addClass('hideRight');
+$(prevSecond).prevAll().removeClass().addClass('hideLeft');
+
+}
+
+// Eventos teclado
+$(document).keydown(function(e) {
+  switch(e.which) {
+      case 37: // left
+      moveToSelected('prev');
+      break;
+
+      case 39: // right
+      moveToSelected('next');
+      break;
+
+      default: return;
+  }
+  e.preventDefault();
+});
+
+
+
+$('#prev').click(function() {
+moveToSelected('prev');
+});
+
+$('#next').click(function() {
+moveToSelected('next');
+});
+
+// Typing effect
+const items = [
+'ช่างแอร์', 'แม่บ้าน', 'ช่างไฟฟ้า', 'ช่างประปา', 'ช่างซ่อมบำรุง', 'ผู้รับเหมา', 'พนักงานขนย้าย', 'ผู้เชี่ยวชาญเรื่องบ้าน'
+]
+const app = document.getElementById('app')
+let count = 0
+let index = 0
+let typingEffect = () => {
+  let text = items[index]
+  if (count < text.length) {
+    setTimeout(() => {
+      app.innerHTML += text[count]
+      count++
+      typingEffect()
+    }, Math.floor(Math.random(10) * 100))
+  } else {
+    count = 0;
+    index = (index + 1 < items.length) ? index + 1 : 0
+    setTimeout(() => {
+      app.innerHTML = ''
+      typingEffect()
+    }, 1500)
+  }
+}
+
+typingEffect()
+// Typing effect ends
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+$(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+
+$(".panel-heading").parent('.panel').hover(
+  function() {
+    $(this).children('.collapse').collapse('show');
+  }, function() {
+    $(this).children('.collapse').collapse('hide');
+  }
+);
+
+    </script>
+  </body>
+</html>
+

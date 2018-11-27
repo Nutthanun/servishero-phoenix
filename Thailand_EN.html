@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>ServisHero</title>
+  </head>
+  <body>
+
+    <!-- navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-light pl-4 mb-5 border-bottom" id="myHeader">
+        <a class="navbar-brand px-2" href="#"><img src="Images/sh_logo_white.svg" style="width:150px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse navbarmenu" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <div class="d-flex flex-row align-items-center">
+                        <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Country</a>
+                        <div class="dropdown-menu navbarmenu" aria-labelledby="dropdown04">
+                            <h6 class="dropdown-header"><img src="Images/malaysia.svg" style="width:25px; height: 25px;"> Malaysia</h6>
+                            <a class="dropdown-item" href="#" style="background-color: #f3f3f3;">English</a>
+                            <h6 class="dropdown-header"><img src="Images/thailand.svg" style="width:25px;"> Thailand</h6>
+                            <a class="dropdown-item" href="#" style="background-color: #f3f3f3;">English</a>
+                            <a class="dropdown-item" href="#" style="background-color: #f3f3f3;">Thai</a>
+                            <h6 class="dropdown-header"><img src="Images/singapore.svg" style="width:25px;">  Singapore</h6>
+                            <a class="dropdown-item" href="#" style="background-color: #f3f3f3;">English</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            
+            <ul class="navbar-nav navbarmenu pr-4">
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="index.html#FeaturedIn">Services</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="index.html#VIP">VIP</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="index.html#enterprise">Enterprise</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Be A Hero</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Help</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav navbarmenu">
+                <li class="nav-item px-2 border-left">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row m-0" style="width:200px;">
+                                <a class="nav-link" href="#" style="color:#3b3a3b; font-size: 12px; font-family: lato">Need help? (Mon-Fri: 10am - 6pm)<br><img src="Images/lineicon.svg" style="width:20px; height:20px;"> <strong4>@servishero</strong4></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>         
+        </div>
+    </nav>
+      
+    <div class="container">
+        <!-- Headline -->
+        <div style="margin-top:30px">
+            <div class="row">
+                <div class="col" style="margin: 5px 0 0 0; padding:0 15px 0 15px;">
+                    <h1 class="headline">
+                        Hire the best:
+                    </h1>
+                    <div id="app"></div>
+                    <h6 class="subheadline pt-3 pb-5" style="color:#707070;">
+                        at the tap of a button
+                    </h6>
+                </div>
+                
+                
+                
+                <div class="col-md-6">
+                    <h3 class="subheadline mb-4" style="color:#707070;">
+                        The easiest way to hire <strong>reliable service professionals</strong> for your home.
+                    </h3>
+                    <div>
+                        <button type="button" class="btn btn-primary btn-lg CTA my-3" data-toggle="modal" data-target="#exampleModalCenter">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BackgroundImage -->
+    <div>
+        <img class="background-image" src="images/Background.png">
+    </div>
+
+    <div class="container" id="FeaturedIn">
+        <section class="customer-logos slider" style="margin: -40px 0 40px 0;">
+        <div class="slide"><img src="Images/TC.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/TechInAsia.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/mediaTH3.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/Bloomberg.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/mediaTH1.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/mediaTH2.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/aday.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/Inc.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/Forbes.png" style="width:100px;"></div>
+        <div class="slide"><img src="Images/CNN.png" style="width:100px;"></div>
+        </section>
+    </div>
+    
+    <div class="container-fluid" id="services">   
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="col-md-6 px-5 text-center my-4">
+                    <h2 class="title">
+                        Trusted Professionals for all your home service needs
+                    </h2>
+                    <p class="subtitle">
+                        Book service providers instantly at fair prices, or get quotations to compare.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+    <div class="container">
+        <div class="row my-3">
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/Cleaning.png" style="width:100%">
+                <!-- <div class="overlay">
+                    <div class="text">Hello World</div>
+                </div> -->
+            </div>
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/ACCleaning.png" style="width:100%">
+            </div>
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/ElectricalRepair.png" style="width:100%">
+            </div>
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/PlumbingService.png" style="width:100%">
+            </div>
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/Handyman.png" style="width:100%">
+            </div>
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/Moving.png" style="width:100%">
+            </div>
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/Contractors.png" style="width:100%">
+            </div>
+            <div class="col-md-3 px-2 py-2 serviceimage">
+                <img src="images/DustMite.png" style="width:100%">
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col d-flex justify-content-center">
+                <div class="col-md-6 px-5 text-center py-3">
+                    <h2 class="title pb-3">
+                        Download ServisHero for the easiest way to maintain your home.
+                    </h2>  
+                    <div class="col py-2 d-flex justify-content-center">
+                        <a href="https://itunes.apple.com/my/app/servishero-on-demand-services/id992334828?mt=8" target="_blank"><img class="px-2" src="Images/app-store-badge.svg" style="width:180px;"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.servishero.consumer&hl=en" target="_blank"><img class="px-2" src="Images/google-play-badge.svg" style="width:180px;"></a>   
+                    </div>                              
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+                <div class="col d-flex justify-content-center">
+                    <div class="col-md-8 text-center my-4">
+                        <h2 class="title py-4">
+                            How It Works
+                        </h2>
+                        <div class="video-container">
+                            <iframe width="853" height="480" src="https://www.youtube.com/embed/_ZBatCfo1T8" frameborder="0" allowfullscreen>
+                            </iframe>
+                        </div>    
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+    <div class="VIP" id="VIP">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <img src="images/houses.svg" class="mt-5 mx-5" style="width: 500px;">
+                </div>
+            </div>
+
+            <!-- VIP Card -->
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="px-4 VIPcard">
+                        <div class="row">
+                            <div class="col d-flex justify-content-center">
+                                <div class="col-md-6">
+                                    <h3 class="VIPdesc text-center pt-3" style="margin-bottom: -1px;">Huge discounts</h3>
+                                    <h3 class="VIPdesc text-center pb-3" style="margin-bottom: -1px;">and preferred service with</h3>
+                                    <h2 class="title">VIP Membership</h2>
+                                    <div class=" pt-3">
+                                        <p class="VIPdesc">
+                                            Sign up as a VIP Member to get even better pricing and exclusive discounts on home services.
+                                        </p>
+                                    </div>
+                                    <p class="subtitle pt-5">Pay only</p> 
+                                    <div class="d-flex justify-content-center">
+                                        <h2 class="currency pt-4 pr-3">THB</h2> 
+                                        <h1 class="price">999</h1> 
+                                        <h3 class="price2 pt-2 pl-1">.00</h3> 
+                                    </div>
+                                    <p class="subtitle">per year</p> 
+                                    <div class="mx-auto pt-5">
+                                        <p class="VIPdesc">
+                                            and get <strong2>THB 2,500</strong2> worth of service vouchers and more, including:
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Privilege -->
+                        
+                        <div class="row d-flex justify-content-center py-3 px-4">
+                            <div class="col-md-3 flex-column px-2 py-2 text-center" style="width:200px;">
+                                <img src="Images/HomeCleaning.svg">
+                                <p class="icondesc py-4">
+                                    General Cleaning vouchers x 10 (worth THB150 each)
+                                </p>
+                            </div>
+                            <div class="col-md-3 flex-column px-2 py-2 text-center" style="width:200px;">
+                                <img src="Images/AirCond.svg">
+                                <p class="icondesc py-4">
+                                    AC Cleaning vouchers x 5 (worth THB100 each)
+                                </p>
+                            </div>
+                            <div class="col-md-3 flex-column px-2 py-2 text-center" style="width:200px;">
+                                <img src="Images/Call.svg">
+                                <p class="icondesc py-4">
+                                    Other Privileges from our partners
+                                </p>
+                            </div>
+                            <div class="col-md-3 flex-column px-2 py-2 text-center" style="width:200px;">
+                                <img src="Images/10OFF.svg">
+                                <p class="icondesc py-4">
+                                    5% OFF Fixed Price Services
+                                </p>
+                            </div>   
+                        </div>
+
+                        <!-- Join Now -->
+                        <div class="row">
+                            <div class="col my-4 text-center justify-content-center">
+                                <a href="https://goo.gl/forms/zaYqXrhD1l3RV7mw2" target="_blank" class="btn btn-info CTA mx-2" role="button" style="border-style: none;">Join Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+            <div class="row my-5">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 px-5 text-center mt-5">
+                    <h2 class="title paddingx20">
+                        Testimonial
+                    </h2>
+                    <p class="subtitle">
+                            Hundreds of thousands of users have found and hired great service providers from ServisHero
+                    </p>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+
+            <!-- Testimonial Carousel -->
+            
+            <main>
+                <div id="carouselbtm" class="container py-4">
+                    <div class="prevLeftSecond" id="testimonialcard">
+                        <div class="row ml-0 d-flex px-2 pt-4 pb-2 justify-content-center" style="width:100%">
+                            <div class="col">
+                                <img src="Images/Mia.png" style="width:77px; float:right;">
+                            </div>
+                            <div class="col d-flex flex-column pl-0 pt-2">
+                                <h6 class="footertitle" style="color: #3b3a3b;">Mia Loh</h6>
+                                <img src="Images/Stars.svg" style="width:100px;">
+                            </div>
+                        </div>
+                        <div class="row ml-0 d-flex px-4 py-4 justify-content-center" style="width:100%">
+                            <img src="Images/Line.svg" style="width: 95%; margin-bottom:20px;">
+                            <h5 class="feedbacktitle">
+                            Ordered AirCond Servicing
+                            </h5>
+                            <p class="feedback">
+                                ServisHero was very good in servicing. We had one aircond faulty due to its compressor and the Hero gave the advice for free. Thank you for your service!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="prev" id="testimonialcard">
+                        <div class="row ml-0 d-flex px-2 pt-4 pb-2 justify-content-center" style="width:100%">
+                            <div class="col">
+                                <img src="Images/Cheek.png" style="width:77px; float:right;">
+                            </div>
+                            <div class="col d-flex flex-column pl-0 pt-2">
+                                <h6 class="footertitle" style="color: #3b3a3b;">Cheek Lee</h6>
+                                <img src="Images/Stars.svg" style="width:100px;">
+                            </div>
+                        </div>
+                        <div class="row ml-0 d-flex px-4 py-4 justify-content-center" style="width:100%">
+                            <img src="Images/Line.svg" style="width: 95%; margin-bottom:20px;">
+                            <h5 class="feedbacktitle">
+                            Ordered Home Cleaning
+                            </h5>
+                            <p class="feedback">
+                                Cleaners by ServisHero were by far the best service received, quick and efficient! Very satisfied with the cleaning service. Will use again!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="selected" id="testimonialcard">
+                        <div class="row ml-0 d-flex px-2 pt-4 pb-2 justify-content-center" style="width:100%">
+                            <div class="col">
+                                <img src="Images/Michelle.png" style="width:77px; float:right;">
+                            </div>
+                            <div class="col d-flex flex-column pl-0 pt-2">
+                                <h6 class="footertitle" style="color: #3b3a3b;">Michelle Yong</h6>
+                                <img src="Images/Stars.svg" style="width:100px;">
+                            </div>
+                        </div>
+                        <div class="row ml-0 d-flex px-4 py-4 justify-content-center" style="width:100%">
+                            <img src="Images/Line.svg" style="width: 95%; margin-bottom:20px;">
+                            <h5 class="feedbacktitle text-center">
+                            Ordered Home Cleaning and Electrical Repair
+                            </h5>
+                            <p class="feedback">
+                                Such convenience. It changes the way I hire cleaners and technicians. I have been using it for all sorts of services. No more asking friends and vetting cleaners myself. Amazing!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="next" id="testimonialcard">
+                        <div class="row ml-0 d-flex px-2 pt-4 pb-2 justify-content-center" style="width:100%">
+                            <div class="col">
+                                <img src="Images/Izzudin.png" style="width:77px; float:right;">
+                            </div>
+                            <div class="col d-flex flex-column pl-0 pt-2">
+                                <h6 class="footertitle" style="color: #3b3a3b;">Izzudin Hamid</h6>
+                                <img src="Images/Stars.svg" style="width:100px;">
+                            </div>
+                        </div>                            
+                        <div class="row ml-0 d-flex px-4 py-4 justify-content-center" style="width:100%">
+                            <img src="Images/Line.svg" style="width: 95%; margin-bottom:20px;">
+                            <h5 class="feedbacktitle">
+                            Ordered Home Cleaning
+                            </h5>
+                            <p class="feedback">
+                                Excellent, very useful and helpful app. I must compliment ServisHero for coming up with such a very useful service and make it so much easier for someone like me who is recovering from a stroke to get vendors to do what I need to be done in my house. Thank you, ServisHero!
+                            </p>
+                        </div>
+                    </div>        
+                    <div class="nextRightSecond" id="testimonialcard">
+                        <div class="row ml-0 d-flex px-2 pt-4 pb-2 justify-content-center" style="width:100%">
+                            <div class="col">
+                                <img src="Images/Iskandar.png" style="width:77px; float:right;">
+                            </div>
+                            <div class="col d-flex flex-column pl-0 pt-2">
+                                <h6 class="footertitle" style="color: #3b3a3b;">Iskandar Zulkarnian</h6>
+                                <img src="Images/Stars.svg" style="width:100px;">
+                            </div>
+                        </div>                                
+                        <div class="row ml-0 d-flex px-4 py-4 justify-content-center" style="width:100%">
+                            <img src="Images/Line.svg" style="width: 95%; margin-bottom:20px;">
+                            <h5 class="feedbacktitle">
+                            Ordered Plumbing Repair
+                            </h5>
+                            <p class="feedback">
+                                Always get good and immediate response to my job requests. Generally helpful and accommodating. Would recommend 100%
+                            </p>
+                        </div>
+                    </div>        
+                </div>                   
+                <div class="row d-flex justify-content-center py-5 px-4">
+                    <div class="buttons" id="enterprise" style="margin: -50px 0 20px 0;">
+                        <!-- <button id="prev"><img src="Images/leftarrow.svg"></button> -->
+                        <a id="prev" class="mx-4"><img src="Images/leftarrow.svg"></a>
+                        <a id="next" class="mx-4"><img src="Images/rightarrow.svg"></a>
+                    </div>
+                </div>               
+            </main>           
+        </div>
+    </div>
+
+    <div class="container-fluid mb-5">   
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="col-md-6 text-center my-4">
+                    <h2 class="title">
+                        ServisHero for Enterprise
+                    </h2>
+                    <p class="subtitle">
+                        Want to work with ServisHero to add value to your enterprise? We've worked with leading organisations to provide unique home service solutions and technician support, including:
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/1.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/2.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/3.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/4.png" style="width:100%;">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/5.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/6.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/7.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/GrabLogo.png" style="width:100%;">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/9.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/10.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/11.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/12.png" style="width:100%;">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/13.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/14.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/15.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/16.png" style="width:100%;">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/17.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/18.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/19.png" style="width:100%;">
+            </div>
+            <div class="col-md-2 mx-2 justify-content-center serviceimage2">
+                <img class="px-2 py-2" src="Images/20.png" style="width:100%;">
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="CTAbottom">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-6">
+                    <div class="col d-flex flex-column" style="margin-top:100px;">
+                        <h2 class="CTAtitle my-2">
+                            Let us make your home or office perfect today!
+                        </h2>
+                        <p class="CTAdesc my-2">
+                            ServisHero is the leading mobile application to find local service providers like cleaners, part time maids, electricians, air conditioning experts, plumbers and other home pros. Use our app to book reliable Heroes at the tap of a button and use cashless options to pay. All our service providers are vetted.
+                        </p>
+                        <div class="col-md-6 px-0">
+                            <button type="button" class="btn btn-primary btn-md my-5 CTA justify-content-center" data-toggle="modal" data-target="#exampleModalCenter">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 align-self-end">
+                    <img class="serviceprovider" src="Images/ServiceProvider.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row px-2 py-5">
+                <div class="col-md-6 d-flex flex-row py-3">
+                    <div class="col-md-4">
+                        <img src="Images/sh_below_logo_black.svg" style="width:80px;">
+                    </div>
+                    <div class="col-md-8 footercontent" style="transform: translateX(-15%)">
+                        <p>ServisHero is the best way to hire local service professionals (we call them “Heroes”) for your home and office. We are regarded as Southeast Asia’s leading mobile app for booking local service professionals.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 px-0 d-flex flex-row py-3">
+                    <div class="col-md-6 d-flex flex-column">
+                        <h4 class="footertitle">Company</h4>
+                        <a href="https://servishero.com/my/en/about-us" class="footercontent my-1">About Us</a>
+                        <a href="https://servishero.com/my/en/blog" class="footercontent my-1">Blog</a>
+                        <a href="https://servishero.zendesk.com/hc/en-us/categories/115000122911-Customer-FAQ" class="footercontent my-1">FAQ</a>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column">
+                        <h4 class="footertitle">Hero</h4>
+                        <a href="http://herosignup.servishero.com/hero-signup-form" class="footercontent my-1">Become a Hero</a>
+                        <a href="https://servishero.com/my/en/guide" class="footercontent my-1">Hero Guide</a>
+                    </div>
+                </div>
+                <div class="col-md-3 px-0 d-flex flex-row py-3">
+                    <div class="col-md-6 d-flex flex-column">
+                        <h4 class="footertitle">Partners</h4>
+                        <a href="https://servishero.com/my/en/kuala-lumpur/simedarby" target="_blank" class="footercontent my-1">Sime Darby</a>
+                        <a href="#" class="footercontent my-1">Allianz</a>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column">
+                        <h4 class="footertitle">Download Now</h4>
+                        <a class="my-1" href="https://itunes.apple.com/my/app/servishero-on-demand-services/id992334828?mt=8" target="_blank"><img src="Images/app-store-badge.svg"></a>
+                        <a class="my-1" href="https://play.google.com/store/apps/details?id=com.servishero.consumer&hl=en" target="_blank"><img src="Images/google-play-badge.svg"></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row justify-content-center">
+                <img src="Images/Line2.svg" style="width:100%">
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class="col-md-6 text-center my-2">
+                        <div class="col my-4 d-flex justify-content-center">
+                            <a href="https://www.facebook.com/servishero" target="_blank"><img class="px-2" src="Images/facebook.svg"></a>
+                            <a href="https://www.instagram.com/servishero/" target="_blank"><img class="px-2" src="Images/instagram.svg"></a>
+                            <a href="https://www.youtube.com/servishero" target="_blank"><img class="px-2" src="Images/youtube.svg"></a>    
+                        </div>
+                        <h4 class="trademark">Customer Care Hotline</h4>
+                        <div class="col pb-5 pt-1 d-flex flex-row justify-content-center">
+                           <img src="Images/telephone.svg" style="width:18px; height:18px">
+                           <h5 class="phonenumber m-0 pl-3">063-236-6640</h5>
+                        </div>
+                        <p class="copyright">COPYRIGHT © 2017 SERVISHERO. ALL RIGHTS RESERVED</p>
+                        <p class="trademark">ServisHero and the ServisHero logo are trademarks of Business Pixel Sdn Bhd. All other trademarks are the trademarks of their respective owners.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-center my-1">
+                    <div class="col-md-3 text-right">
+                        <a href="https://servishero.com/my/en/terms_of_use"><p class="trademark">Terms of Use</p></a> 
+                    </div>
+                    <div class="col-md-3 text-left">
+                        <a href="https://servishero.com/my/en/privacy_policy"><p class="trademark">Privacy Policy</p></a> 
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="title m-0" id="exampleModalLongTitle">Notice</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col flex-column justify-content-center">
+                            <div class="col text-center">
+                                <p class="subtitle">
+                                    We are focusing our efforts in providing the best user experience for our customer and hence will no longer receive booking from the web. Please download our app and use your mobile number to login to the app. All your existing booking will be carried over in the app.
+                                </p>
+                            </div>
+                            <div class="col d-flex flex-row justify-content-center">
+                                <div class="col my-4 d-flex justify-content-center">
+                                    <a class="my-1 mx-2" href="https://itunes.apple.com/my/app/servishero-on-demand-services/id992334828?mt=8" target="_blank"><img class="DLpopup" src="Images/app-store-badge.svg"></a>
+                                    <a class="my-1 mx-2" href="https://play.google.com/store/apps/details?id=com.servishero.consumer&hl=en" target="_blank"><img class="DLpopup" src="Images/google-play-badge.svg"></a>
+                                </div>
+                            </div>
+                            <div class="col mb-3 text-center">
+                                <p class="subtitle">
+                                    or
+                                </p>
+                            </div>
+                            <div class="col text-center">
+                                <p class="subtitle">
+                                    Book through WhatsApp or Facebook Messenger
+                                </p>
+                            </div>
+                            <div class="col my-4 d-flex justify-content-center">
+                                <a href="https://www.messenger.com/t/servishero" target="_blank" class="btn btn-info WhatsApp mx-2" role="button" style="border-style: none;"><img class="pr-2" src="Images/whatsapp.svg" style="width:35px; height:35px"> Book</a>
+                                <a href="https://www.messenger.com/t/servishero" target="_blank" class="btn btn-info FBMessenger mx-2" role="button" style="border-style: none;"><img class="pr-2" src="Images/messenger.svg" style="width:35px; height:35px"> Book</a>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    
+    <script>
+        function moveToSelected(element) {
+
+if (element == "next") {
+  var selected = $(".selected").next();
+} else if (element == "prev") {
+  var selected = $(".selected").prev();
+} else {
+  var selected = element;
+}
+
+var next = $(selected).next();
+var prev = $(selected).prev();
+var prevSecond = $(prev).prev();
+var nextSecond = $(next).next();
+
+$(selected).removeClass().addClass("selected");
+
+$(prev).removeClass().addClass("prev");
+$(next).removeClass().addClass("next");
+
+$(nextSecond).removeClass().addClass("nextRightSecond");
+$(prevSecond).removeClass().addClass("prevLeftSecond");
+
+$(nextSecond).nextAll().removeClass().addClass('hideRight');
+$(prevSecond).prevAll().removeClass().addClass('hideLeft');
+
+}
+
+// Eventos teclado
+$(document).keydown(function(e) {
+  switch(e.which) {
+      case 37: // left
+      moveToSelected('prev');
+      break;
+
+      case 39: // right
+      moveToSelected('next');
+      break;
+
+      default: return;
+  }
+  e.preventDefault();
+});
+
+
+
+$('#prev').click(function() {
+moveToSelected('prev');
+});
+
+$('#next').click(function() {
+moveToSelected('next');
+});
+
+// Typing effect
+const items = [
+'AirCond Technicians',
+'Home Cleaners',
+'Plumbers',
+'Electricians',
+'Handyman',
+'Movers',
+'Contractors',
+'Home Service Pros'
+]
+const app = document.getElementById('app')
+let count = 0
+let index = 0
+let typingEffect = () => {
+  let text = items[index]
+  if (count < text.length) {
+    setTimeout(() => {
+      app.innerHTML += text[count]
+      count++
+      typingEffect()
+    }, Math.floor(Math.random(10) * 100))
+  } else {
+    count = 0;
+    index = (index + 1 < items.length) ? index + 1 : 0
+    setTimeout(() => {
+      app.innerHTML = ''
+      typingEffect()
+    }, 1500)
+  }
+}
+
+typingEffect()
+// Typing effect ends
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+$(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+
+$(".panel-heading").parent('.panel').hover(
+  function() {
+    $(this).children('.collapse').collapse('show');
+  }, function() {
+    $(this).children('.collapse').collapse('hide');
+  }
+);
+
+    </script>
+  </body>
+</html>
+

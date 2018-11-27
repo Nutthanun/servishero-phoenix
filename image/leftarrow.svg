@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="35px" viewBox="0 0 20 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-down-sign-to-navigate (2)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page-HIFI-Final" transform="translate(-633.000000, -4350.000000)" fill="#353533" fill-rule="nonzero">
+            <g id="Group-10" transform="translate(109.000000, 3864.000000)">
+                <g id="Group-9" transform="translate(524.000000, 486.000000)">
+                    <g id="arrow-down-sign-to-navigate-(2)" transform="translate(9.988938, 17.500000) rotate(-270.000000) translate(-9.988938, -17.500000) translate(-7.511062, 7.511062)">
+                        <path d="M17.4940376,19.9551106 C16.8669801,19.9551106 16.24,19.7156858 15.7619248,19.2378429 L0.717809735,4.19357301 C-0.239192478,3.2365708 -0.239192478,1.68495575 0.717809735,0.728340708 C1.67442478,-0.228274336 3.22573009,-0.228274336 4.18280973,0.728340708 L17.4940376,14.0403429 L30.8053429,0.72880531 C31.7623451,-0.227809735 33.3134956,-0.227809735 34.2700332,0.72880531 C35.2275,1.68542035 35.2275,3.2370354 34.2700332,4.19403761 L19.2261504,19.2383075 C18.7478429,19.7162279 18.1208628,19.9551106 17.4940376,19.9551106 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
