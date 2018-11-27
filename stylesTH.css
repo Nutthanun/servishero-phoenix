@@ -214,7 +214,7 @@ html {
 }
 
 .VIP {
-    background-image: url("images/Mask.png");
+    background-image: url("image/Mask.png");
     background-repeat: no-repeat;
     background-size: contain ;
     background-attachment: scroll;
@@ -437,7 +437,7 @@ html, body, main {
   }
 
 .CTAbottom {
-    background-image: url("images/bg.svg");
+    background-image: url("image/bg.svg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
