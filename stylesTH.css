@@ -14,6 +14,9 @@ html {
     --word-height: 60px;
     --button-popup: 180px;
     --social-media: 10px 50px 10px 50px;
+    --card-size: 800px;
+    --margin-top: 100px;
+    --padding-top: 70px;
     }
 
 
@@ -50,6 +53,9 @@ html {
         --word-height: 35px;
         --button-popup: 160px;
         --social-media: 10px 30px 10px 30px;
+        --card-size: 300px;
+        --margin-top: 50px;
+        --padding-top: 120px;
     }
   }
 
@@ -71,6 +77,9 @@ html {
         --word-height: 35px;
         --button-popup: 160px;
         --social-media: 10px 30px 10px 30px;
+        --card-size: 350px;
+        --margin-top: 70px;
+        --padding-top: 140px;
     }
   }
   
@@ -92,6 +101,9 @@ html {
         --word-height: 36px;
         --button-popup: 180px;
         --social-media: 10px 50px 10px 50px;
+        --card-size: 500px;
+        --margin-top: 70px;
+        --padding-top: 100px;
     }
   }
   
@@ -113,6 +125,9 @@ html {
         --word-height: 40px;
         --button-popup: 180px;
         --social-media: 10px 50px 10px 50px;
+        --card-size: 650px;
+        --margin-top: 70px;
+        --padding-top: 120px;
     }
   }
   
@@ -134,6 +149,9 @@ html {
         --word-height: 60px;
         --button-popup: 180px;
         --social-media: 10px 50px 10px 50px;
+        --card-size: 900px;
+        --margin-top: 150px;
+        --padding-top: 150px;
     }
   }
 
@@ -214,7 +232,7 @@ html {
 }
 
 .VIP {
-    background-image: url("image/Mask.png");
+    background-image: url("images/Mask.png");
     background-repeat: no-repeat;
     background-size: contain ;
     background-attachment: scroll;
@@ -437,7 +455,7 @@ html, body, main {
   }
 
 .CTAbottom {
-    background-image: url("image/bg.svg");
+    background-image: url("images/bg.svg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -721,4 +739,16 @@ strong4 {
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+.privilege {
+    width: var(--card-size);
+}
+
+.margintop {
+    margin-top: var(--margin-top);
+}
+
+.paddingtop {
+    padding-top: var(--padding-top);
 }

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="101px" viewBox="0 0 99 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0622318923 0.104270174 91.1197523 0.104270174 91.1197523 100.562693 0.0622318923 100.562693"></polygon>
+        <polygon id="path-3" points="0.0618792269 0.0394493204 22.0245136 0.0394493204 22.0245136 23.929007 0.0618792269 23.929007"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page-HIFI-Final" transform="translate(-960.000000, -3125.000000)">
+            <g id="Group-11" transform="translate(193.000000, 2526.000000)">
+                <g id="Group-13" transform="translate(66.000000, 599.000000)">
+                    <g id="Group-8" transform="translate(701.000000, 0.000000)">
+                        <g id="Group-7-Copy-2" opacity="0.247265625">
+                            <g id="Group-3">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M76.3603318,10.9822496 C58.10399,-2.79835409 29.9597102,-5.55048261 15.7768653,14.9288888 C1.59402044,35.4082602 27.8014227,45.6323842 13.4130578,55.6100155 C-0.755078903,65.434656 -7.45213946,86.0444308 12.8361575,95.6962507 C32.6242465,105.109851 65.5042833,100.544289 68.7436188,84.785572 C71.9829543,69.0268555 67.2553394,60.3531266 82.7514106,52.0830835 C98.2474819,43.812909 89.9302939,21.2254153 76.3603318,10.9822496" id="Fill-1" fill="#F6E8B2" mask="url(#mask-2)"></path>
+                            </g>
+                            <g id="Group-6" transform="translate(76.298453, 59.751800)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Clip-5"></g>
+                                <path d="M0.0618792269,11.9841625 C0.0618792269,18.5810239 4.97833614,23.929007 11.0432095,23.929007 C17.1079516,23.929007 22.0245398,18.5810239 22.0245398,11.9841625 C22.0245398,5.3873011 17.1079516,0.0394493204 11.0432095,0.0394493204 C4.97833614,0.0394493204 0.0618792269,5.3873011 0.0618792269,11.9841625" id="Fill-4" fill="#F6E8B2" mask="url(#mask-4)"></path>
+                            </g>
+                        </g>
+                        <g id="Group-5" transform="translate(7.557377, 14.754098)" font-family="GreycliffCF-ExtraBold, Greycliff CF" font-size="40" font-weight="600" letter-spacing="-0.55" line-spacing="30">
+                            <text id="10%-OFF" fill="#989898">
+                                <tspan x="1" y="42">10%</tspan>
+                                <tspan x="75.83" y="50.2" font-size="22"></tspan>
+                                <tspan x="9.735" y="80.2" font-size="30">OFF</tspan>
+                            </text>
+                            <text id="10%-OFF-Copy" fill="#FFCC09">
+                                <tspan x="0" y="40">10%</tspan>
+                                <tspan x="74.83" y="48.2" font-size="22"></tspan>
+                                <tspan x="8.735" y="78.2" font-size="30">OFF</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
